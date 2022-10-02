@@ -1,0 +1,39 @@
+*{ /*Esto significa todos los elementos de la pagina*/
+color:coral;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2{
+    font-size: 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: cadetblue;
+}
+
+p {
+    font-size:20px;
+    color:black;
+
+}
+
+div p{
+    font-family: 'Segoe UI';
+    color:chartreuse
+}
+
+article p {
+color: red;
+}
+
+/* los modificadores son selectivos de forma decendente y si hay una etiqueta como un article entre el div  y el p o alguna otra intermedia, 
+si cumple con los parametros va a ser afectado por el selector
+*/
+
+.grande {
+    font-size: 35px;
+}
+
+#rojo {
+    color: aqua;
+}

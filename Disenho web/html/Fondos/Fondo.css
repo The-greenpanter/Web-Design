@@ -1,0 +1,32 @@
+/*body {
+  background:#e6aa3a;
+    background: url('/Fondos/IMG_20220522_112659-Edit.jpg');
+    background-repeat:no-repeat;
+    Que el fondo se repita
+    background-size: 100%;
+    background-attachment: fixed scroll;
+    tamanho que ocupara la imagen
+    background-attachment: fixed; 
+    si la imagen se deplaza o se queda fija
+background-position: center center; 
+center constrain
+
+}*/
+
+/* body {
+    background:url('/Fondos/IMG_20220522_112659-Edit.jpg')no-repeat fixed center center ;
+    background-size:500px ;
+} */
+.fondo {
+    width: 1080px;
+    height: 720px;    
+    background: url('/Fondos/IMG_20220522_112659-Edit.jpg')rgb(255, 204, 116) ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    
+
+    
+    
+}

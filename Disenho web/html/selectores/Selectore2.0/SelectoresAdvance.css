@@ -1,0 +1,16 @@
+
+    /* versuib clasica  */
+div p{
+    font-size: 10px;
+ } 
+
+ /*selectores por seccion padre e hijo o de desendecia */
+
+ input [type] {
+    color:darkgreen;    
+}
+    input [type = "Articulo"] {
+        font-size:25px ;
+    }
+    
+
