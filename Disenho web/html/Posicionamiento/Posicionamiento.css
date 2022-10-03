@@ -1,0 +1,21 @@
+*{
+padding: 0;
+margin: 0;
+}
+body {
+    background: #e3890b95;
+}
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #221ac5a9;
+    margin: 20px 0 0;
+}
+.posicionada {
+    background: red;
+    top:2%;
+    right: 50px;
+    left: 50%;
+    bottom: -300px;
+    position:fixed;
+}
