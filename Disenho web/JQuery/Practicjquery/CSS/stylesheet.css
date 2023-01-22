@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Vollkorn;
+    font-size:16px;
+}
+.container {
+    width: 80%
+    /* text-align: center; */
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* padding: auto; */
+}
+/* =====================+++++++HEADEr++++++++++++++=================== */
+header {
+    width: 100%;
+    background: url('../Media/bg.png')#281a0c ;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center -400px;
+}
+header .container {
+    position: relative;
+    height: 700px;
+    text-align: center;
+
+}
+header .menu{
+    width: 100%;
+    text-align: right;
+    margin-left: -3%;
+}
+header .menu a{
+    font-family:Petit Formal Script;
+    color:#281a0c;
+    font-size: 20px;
+    font-weight: 900;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+header .menu a:hover {
+    text-decoration: underline;
+}
+header .container-texto {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    margin-top: -52px;  
+}
+header .container-texto .Tituloprincipal {
+    font-size: 50px;
+    font-weight: 900;
+}
+header .container-texto .Tituloprincipal span {
+    font-weight: 600;
+    font-size: 65px;
+    font-style: italic;
+}
+header .container-texto .descripcion h3 {
+    font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+}
+/* ==========================+++++++++++++++++++++++++++++++ MAIN ++++++++++++++++++++++++++++++++++++===================== */
+.main{
+    background: url('../Media/more-leaves.png');
+    background-repeat: repeat;
+    text-align: center;
+    height: auto;
+}
+.main .acerca-de .container {
+    overflow: visible;
+    position: relative;
+}
+.main .acerca-de .fotoportada {
+    width: 60%;
+    position: absolute;
+    inset-inline-start: 7%;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+
+}
+.main .acerca-de .fotoportada img {
+    vertical-align: top;
+    width: 100%;
+    border-radius: 6px;
+}
+.main .acerca-de article {
+    width: 50%;
+    position: relative;
+    background: #fcfcfc;
+    z-index: 1;
+    padding: 30px;
+    top: 250px;
+    /* float: right; */
+    left: 23%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+    /* margin-bottom: 12%; */
+    border-radius: 4px;
+
+}
+.main .acerca-de article h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.main .acerca-de article p {
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.main .menu{
+    padding-top: 1%;
+    margin-bottom: 50px;
+}
+.main .menu .title{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main .menu .contenedor-menu{
+    margin: 0 8%;
+}
+
+.main .menu .contenedor-menu p {
+    margin: 0.2% 0.5%
+    padding: 30px;
+}
+
+.main .menu .contenedor-menu,
+.main .menu .contenedor-menu2 {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+.main .menu article {
+    width: 50%;
+    float: left;
+    padding: 20px;   
+}
+.main .menu .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main .menu .platillo{
+    margin-bottom: 30px;
+    /* padding-bottom: 20px; */
+    border-bottom:4px;
+    /* background: #fcfcfc; */
+    padding: 3%;
+    border-bottom: 4px dotted;
+
+}
+.main .menu .contenedor-menu2 .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float:left;
+    display: inline-block;
+}
+.main .menu .contenedor-menu2 .precio{
+    float: right;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.main .menu .contenedor-menu2 .description{
+    text-align: justify;
+    display: inline-block;
+    margin-bottom: 5%;
+    clear:both;
+}
+.main .galeria {
+    overflow: hidden;
+}
+.main .galeria .foto{
+    float: left;
+    width: 25%;
+    
+}
+.main .galeria .foto img{
+    width: 100%;
+    vertical-align: top;
+    opacity:.7;
+    height: auto;
+}
+.main .galeria .foto:hover img {
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.main .ubicacion {
+    background: #ffffff;
+    padding: 5% 12%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* width: 80%; */
+    overflow: hidden;
+}
+.main .ubicacion .titulo {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.main .ubicacion .direccion {
+    float: left;
+    width: 50%;
+    text-align: left;
+    overflow: hidden;
+}
+.main .ubicacion .horarios {
+    float: right;
+    width: 50%;
+    text-align: right;
+    overflow: hidden;
+
+}
+.main .ubicacion .horarios h4{
+    text-align: center;
+    margin-bottom: 7%;
+}
+.main .ubicacion .direccion .calle {
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #0000;
+
+}
+.main .ubicacion .horarios .entresemana,
+.main .ubicacion .horarios .finesdesemana{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+section .mapa {
+    max-height: 590px;
+}
+section .mapa iframe {
+     width: 100%;
+     max-height: 590px;
+}
+.separador {
+    border: 3px solid green;
+    border-radius: 1px;
+}
+/* ==========================+++++++++++++++++++++++++++++++ footer ++++++++++++++++++++++++++++++++++++===================== */
+footer {
+    background: #000;
+}
+footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+/* ==========================+++++++++++++++++++++++++++++++ media ++++++++++++++++++++++++++++++++++++===================== */
+@media screen and (max-width: 800px) {
+    header .container{
+        position: static;
+        height:auto ;
+
+    }
+    header .container-texto .Tituloprincipal {
+        font-size: 30px;
+    }
+    header .container-texto .descripcion{
+        font-size: 18px;
+     }
+    header .container-texto {
+        position: static;
+        margin: 100px 0;
+    }
+    header .menu {
+        position: center;      
+        text-align: center;  
+        margin: auto;
+    }
+    header .menu a {
+        margin: 2.5% 5%;
+    }
+    header {
+        margin-bottom: 1px;
+    }
+    .main .acerca-de  {
+        box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+    }
+    .main .acerca-de article {
+        position: relative;
+        width: 100%;
+        top: 0%;
+        transform: translate(0px,0);
+        left: auto;
+    }
+    .main .acerca-de .fotoportada,
+    .main .acerca-de article { 
+        /* box-shadow: none; */
+        box-shadow: none;
+
+     border-radius: 0;
+
+    }
+
+    .main .acerca-de .fotoportada {
+        width: 100%;
+        margin-bottom: 0;
+        position: relative;
+        inset-inline-start: 0%;
+        top: 0;
+        z-index: 0;
+    }
+    .main .acerca-de .foto{
+        width: 100%;
+        position: relative;
+    }
+    .main .acerca-de article {
+        position: relative;
+        width: 100%;
+        transform: translate(0px,0);
+    }
+    .main .menu {
+        padding-top: 200px;
+    }
+    .main .menu article {
+        width: 100%; 
+    }
+    .main .galeria .foto {
+        width: 50%;
+    }
+    .main .mapa {
+        width: 90%;
+        margin: auto;
+    } 
+    .main .galeria {
+        overflow: visible;
+    }
+}
