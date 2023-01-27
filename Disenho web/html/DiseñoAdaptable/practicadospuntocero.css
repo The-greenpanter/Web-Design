@@ -1,0 +1,192 @@
+@font-face {
+    font-family:"FuzzyBubbles-Bold" ;
+    src: url('/Disenho web/html/Fuentes/Fonts/Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Freehand";
+    src: url('/Disenho web/html/Fuentes/Fonts/Freehand/Freehand-Regular.ttf');
+}
+
+@font-face {
+    font-family:"FuzzyBubbles-Regular";
+    src: url('/Disenho web/html/Fuentes/Fonts/Fuzzy_Bubbles/FuzzyBubbles-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-Black.ttf');
+}
+@font-face {
+    font-family: "Raleway-BlackItalic";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-BlackItalic.ttf');
+}
+@font-face {
+    font-family: "Raleway-ExtraBoldItalic";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: "Raleway-ThinItalic";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-ThinItalic.ttf');
+}
+@font-face {
+    font-family:"RobotoMono-VariableFont_wght" ;
+    src: url('/Disenho web/html/Fuentes/Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+
+body{
+    font-family:RobotoMono-VariableFont_wght;
+    font-size: 16px;
+    background: #0593A2;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+    overflow: hidden;
+}
+
+header{
+    background:#fff;
+
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    width: 100%;
+    overflow:hidden;
+    list-style: none;
+}
+
+header nav ul li{
+    float:left;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:15px 20px;
+    color:#0593A2;
+}
+header nav ul li a:hover{
+background: #103778;
+color:#FF7A48 ;
+transform: scale(110%);
+
+}
+.main{
+width:70%;
+background: #103778;    
+float: left;
+}
+
+.main .IMG{
+    width: 100%;
+}
+
+.main .post article h2{
+font-family: FuzzyBubbles-Bold;
+margin-bottom: 20px;
+color:#FF7A48;
+margin-left:10px;
+margin-top: 5px;
+}
+
+.main .post p{
+    margin:15px;
+    /* internineado a continuacion */
+    line-height:27px; 
+    color:#fff;
+    font-family:Raleway-ThinItalic;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+aside {
+    width: 30%;
+    background:#151F30 ;
+    padding:20px;
+    color:#FF7A48;
+    float:left;
+}
+
+aside .weidget{ 
+    margin-bottom: 20px;
+}
+
+aside .weidget .titulo{
+    color:#E3371E;
+    border-bottom:1px solid #E3371E;
+    margin-bottom:10px;
+    /* border-radius: 20; */
+
+}
+
+aside .weidget ul {
+    list-style: none;
+
+}
+
+aside .weidget ul li{
+    border-bottom: 1px solid rgba(255, 122, 72, 0,2);
+
+}
+
+aside .weidget ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+aside .weidget ul li a:hover{
+    background: #0593A2;
+    color:#fff ;
+    transform: scale(1.3%);
+    /* font-family:Freehand ;
+    line-height: 30px; */
+}
+
+aside .weidget p {
+    line-height: 27px;
+}
+
+footer{
+width: 70%;
+clear:both;
+background: #000;
+color:#0593A2;
+padding:15px 0;
+text-align:center;
+}
+
+footer p {
+    width: 95%;
+}
+/* Media queris CONDICIONALES DE ESTILO */
+
+
+@media screen and (max-width:800px) {
+    .main{
+        width: 100%;        
+    }
+    aside {
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+     
+    }
+    footer p {
+        margin-left: 5px;
+     margin-right: 5px;
+    }
+}

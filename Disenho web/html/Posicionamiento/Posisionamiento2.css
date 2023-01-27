@@ -1,0 +1,31 @@
+.cajaPadre {
+    background: #2e294A;
+    width:700px;
+overflow: hidden;
+}
+.caja{
+    width: 200px;
+    color: #fff;
+    font-size: 38px;
+    background-color: #0e6ba8;
+    margin:20px;
+}
+.uno{
+    float:left;
+
+}
+.dos{
+    /* float:right; */
+    float:left;
+}
+.clear{
+    clear:both;
+}
+.articulo{
+    width: 800px;
+    background: #e3890b95;
+    
+}
+.articulo img{
+    float:left;
+}

@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    /* la sigueinte propiedad mantiene las propiedades de tamaño */
+box-sizing: border-box;
+}
+body{
+    background: #ff2;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formulario {
+    background:#264E85;
+    width: 500px;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.formulario input{
+    display:block;
+}
+
+.formulario input[type="text"],[type="email"],textarea{
+width:100%;
+padding:20px;
+border-radius: 3px;
+margin-bottom: 20px;
+border:1px solid #9FC131;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+.formulario textarea{
+    min-height: 120px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+}
+.formulario input[type="submit"]{
+    width:200px;
+    height: 40px;
+    margin:0 auto;
+    color:#005C53;
+    background:#D6D58E ;
+    border:1px solid #9FC131;
+}
+
+/* Mostrarele al usuario el espacio actual */
+.formulario input[type="text"],[type="email"],textarea{
+border:4px solid #005C53;
+
+}

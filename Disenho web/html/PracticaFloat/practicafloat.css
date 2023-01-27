@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+@font-face {
+    font-family:"Fuentes" ;
+    src: url('/Disenho web/html/Fuentes/Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+
+body{
+    background:#012340;
+    font-family:Fuentes ;
+}
+.contenedor{
+    width: 1000px;
+    background-color: #04D939;
+    margin: 20px auto;
+}
+
+header{
+    background-color: #731702;
+   color:#fff;
+   padding: 20px;
+}
+.main{
+    background: #04D939;
+    color: #012340;
+    padding:20px;
+    width: 70%;
+    float:left;
+}
+aside{
+    background: #F27405;
+    color:#fff ;
+    padding:20px;
+    width: 30%;
+float:left;
+}
+footer{
+
+font-style: italic;
+font-size: large;
+font-variant: small-caps;
+font-weight: bold;
+font-size: 100%;
+    clear:both;
+    background:#02735E;
+    padding: 10px;
+    color: #F27405;
+}

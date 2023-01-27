@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    body {
+        background: #e3890b95;
+    }
+     .caja {
+        width: 200px;
+        height: 200px;
+        background: #221ac5a9;
+        margin: 20px;
+        float:left;
+        transition-delay:  20s;
+    }
+   
+    .caja:hover{
+        background: #e3890b95;
+        transform: rotate(180deg);
+    /* width: 400px; */
+    }
+    .caja{
+        transition:all 1s ease;
+        /* ease controla la aceleracion de la transcion */
+    }

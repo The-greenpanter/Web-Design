@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+  <form action="" method=""><!--URL:Toma los datos para ser usados en una base de datos 'recibo.php'-->
+    <label for="Nombre">Nombre</label>
+    <input  id="Nombre" type="text" placeholder= "Nombre: " maxlength = "12" required name="Nombre">
+    <br />
+    <form>
+        <label for="email">Correo</label>
+
+        <input id="email" type="  type="email" placeholder="Correo:" name="email" name="email">
+    </form>
+    <form>
+        <input id="Hombre" type="radio"  name="Hombre" ><label for="Hombre">Hombre</label>
+        <input id="Mujer" type="radio"  name="Hombre" ><label for="Mujer">Mujer</label>
+    </form>
+    <br />
+    <textarea name="Mensaje" id="Mensaje" placeholder="Mensaje" ></textarea>
+    <br />
+    <label for="pais">Pais</label>
+    <select name="pais" id="pais">
+        <option value="Colombia">Mexico</option>
+        <option value="Canada">Canada</option>
+        <option value="United States">United States</option>    
+        <option value="Holanda">Holanda</option> 
+    </select>   
+    <br /> <input type="checkbox" name="Terminos y Condiciones" id="Terminos"><label for="Terminos" >Terminos y Condiciones</label>
+    <input type="submit" Value="Enviar">
+    <!--
+</form> 
+   <form method="recibe.php"><--Backednd:  Toma los datos para ser usados en una base de datos 'recibo.php'
+    </form>
+    -->
+   
+</body>
+</html>

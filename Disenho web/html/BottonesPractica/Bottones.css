@@ -1,0 +1,46 @@
+body{
+    background: #f2f3f4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div {
+margin: 20px 0;
+}
+.botton {
+    background: #2E338C;
+    color:#F2E8D5;
+    text-decoration: none;
+    display:inline-block;
+    /* No olvides agregarlo para poder usar los bottones con los espacions correctos */
+    padding: 15px 20px;
+    margin: 0 10px;
+}
+.botton:hover {
+opacity: .8;
+}
+
+.small {
+font-size: 14px;
+padding: 10px 15px;
+}
+
+.meddium {
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #fff
+
+}
+
+.big {
+    font-size: 18px;
+    padding: 20px 25px;
+    color: #2E338C;
+}
+.verybig{
+    font-size: 20px;
+    padding:  25px 30px;
+}
+.violeta{background:#827CA6;}
+.blancoMate{background:#F2E8D5;}
+.naranja{background:#F29985;}
+
+.border-radius{border-radius: 100px;}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+    user-scalable=no, maximum-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
+    <title>FormJs</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" name="formu" class="formu" id="formu">
+            <div class="inputcontainer">
+                <div class="nombreycorreo">
+                    <input type="text" name="nombre" class="name" id="nombre" placeholder="nombre">
+                    <input type="email" name="email" id="email" class="email"  placeholder="e-mail">
+                </div>
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre">
+                    <label class="label-radio men" for="hombre"> Hombre</label>
+                    <input type="radio" name="sexo" id="mujer">
+                    <label class="label-radio women" for="mujer"> Mujer</label>
+                </div>  
+                <div class="terms">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms"> Acepto Terminos y Condiciones.</label>
+                </div>
+                <div>
+                    <ul class="error" id="error">
+                       
+                    </ul>
+                </div>
+            </div>
+            <input class="btn"type="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="/Javascript/formularios/interactive.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.text{
+    text-shadow: 4px 2px 5px #0AA696;
+/* los valores son izquierda a derecha y de arriba a abajo, por ultimo el tamanho de la sombra */
+}
+.caja{
+    width: 200px;
+    height: 200px;
+background: #F24987;
+box-shadow:4px 2px 5px #F27405;
+}

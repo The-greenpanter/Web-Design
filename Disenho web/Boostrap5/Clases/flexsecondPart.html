@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0, minimun-scale=1.0">
+    <style>
+        .contenedor {
+            margin-bottom: 20px;
+            background: #0d6efd;
+            color:#fff;
+            height: 100px;
+    
+        }
+
+        .contenedor > div{
+            background: rgba(225, 255, 255, .2);
+            padding: 15px;
+            border:1px solid #0d6fed;
+            
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+    <title>Fill</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+                 <h4>Flex2</h4>
+                <p>Fill</p>
+                <hr>
+                <h4>Distribucion</h4>
+                <hr>
+
+                <p>.flex-fill</p>
+                <div class="contenedor d-flex align-items-start">
+                   <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit.  1
+                   </div>
+                   <div class="flex-fill">.flex-fill</div>
+                   <div class="flex-fill">flex-fill</div>
+                </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+              
+                <h4>ALIGNE ITEMS</h4>
+                <hr>
+
+                <p>.align-items-start</p>
+                <div class="contenedor d-flex align-items-start">
+
+                   <div class="flex-fill">Box 1</div>
+                   <div class="flex-fill">Box 2</div>
+                   <div class="flex-fill">Box 3</div>
+                </div>
+                <p>.align-items-center</p>
+                <div class="contenedor d-flex align-items-center">
+        
+                   <div class="flex-fill">Box 1</div>
+                   <div class="flex-fill">Box 2</div>
+                   <div class="flex-fill">Box 3</div>
+                </div>
+                <p>.align-items-end</p>
+                <div class="contenedor d-flex align-items-end">
+        
+                   <div class="flex-fill">Box 1</div>
+                   <div class="flex-fill">Box 2</div>
+                   <div class="flex-fill">Box 3</div>
+                </div>
+                <p>.align-items-baseline</p>
+                <div class="contenedor d-flex align-items-baseline">
+        
+                   <div class="flex-fill">Box 1</div>
+                   <div class="flex-fill">Box 2</div>
+                   <div class="flex-fill">Box 3</div>
+                </div>
+                <p>.align-items-strech</p>
+                <div class="contenedor d-flex align-items-strech">
+        
+                   <div class="flex-fill">Box 1</div>
+                   <div class="flex-fill">Box 2</div>
+                   <div class="flex-fill">Box 3</div>
+                </div>
+        </div>
+    </div>
+
+    <div class="row my-5">
+        <div class="col">
+            <h4>Auto Margins</h4>
+            <hr>
+
+            <p>.align-self</p>
+            <div class="contenedor d-flex">
+               <div class="align-self-start">align-self-start</div>
+               <div class="align-self-center">align-self-center</div>
+               <div class="align-self-end">align-self-end</div>
+               <div class="align-self-stretch">align-self-stretch</div>
+            </div>
+            <hr>
+            <p>.justify-content-end</p>
+            <div class="contenedor d-flex justify-end">
+                <div class="me-auto">me-auto</div>
+                <div class="">box 2</div>
+                <div class="">box 3</div>
+            </div>
+            <div class="contenedor d-flex justify-start">
+                <div class="">Box 1</div>
+                <div class="">box 2</div>
+                <div class="ms-auto">ms-auto</div>
+            </div>
+            <div class="contenedor d-flex flex-column align-items-start" style="height:250px">
+                <div class="mb-auto">mb-auto</div>
+                <div class="">box 2</div>
+                <div class="">box 3</div>
+            </div>
+            <div class="contenedor d-flex flex-column align-items-end" style="height:250px">
+                <div class="">box 1</div>
+                <div class="">box 2</div>
+                <div class="mb-auto">mb-auto</div>
+            </div>
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

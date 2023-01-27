@@ -1,0 +1,50 @@
+@font-face {
+    font-family:"FuzzyBubbles-Bold" ;
+    src: url('/Disenho web/html/Fuentes/Fonts/Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Freehand";
+    src: url('/Disenho web/html/Fuentes/Fonts/Freehand/Freehand-Regular.ttf');
+}
+
+@font-face {
+    font-family:"FuzzyBubbles-Regular";
+    src: url('/Disenho web/html/Fuentes/Fonts/Fuzzy_Bubbles/FuzzyBubbles-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-Black.ttf');
+}
+@font-face {
+    font-family: "Raleway-BlackItalic";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-BlackItalic.ttf');
+}
+@font-face {
+    font-family: "Raleway-ExtraBoldItalic";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: "Raleway-ThinItalic";
+    src: url('/Disenho web/html/Fuentes/Fonts/Raleway/static/Raleway-ThinItalic.ttf');
+}
+@font-face {
+    font-family:RobotoMono-VariableFont_wght ;
+    src: url('/Disenho web/html/Fuentes/Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+body{
+    background: #00B3AD;
+}
+
+.T1 {
+    font-family: FuzzyBubbles-Regular;
+}
+.T2{font-family: Freehand;}
+.T3{font-family: Raleway-Black;}
+.T4{font-family: Raleway-BlackItalic;}
+.T5{font-family: Raleway-ExtraBoldItalic;}
+.T6{font-family: Raleway-ThinItalic;}
+
+p{
+    font-family: 'Island Moments', cursive;}

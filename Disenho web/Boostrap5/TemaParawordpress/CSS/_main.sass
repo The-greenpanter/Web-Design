@@ -1,0 +1,122 @@
+.main,
+.sidebar
+    .titulo-section
+        h3
+            font-family: $font-family2
+            font-size: 1.5em
+            line-height: 1.5em
+            font-weight: bold
+            color: $Terciario
+            padding-bottom: 0.62em
+            border-bottom: 4px solid $Secundario
+            margin-bottom: 1.25em
+.main
+    .titulo-section 
+        > div
+            padding: 0
+    .posts
+        margin-bottom: 1.875em
+        .card
+            backface-visibility: #000
+            margin-bottom: 10px
+            -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3)
+            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3)
+            a
+                text-decoration: none
+                &:hover
+                    transform: scale(1.054)
+            img
+                transition: all 0.4s ease-out
+                height: 16.5em
+                vertical-align: top
+                object-fit: cover
+                &:hover
+                    transform: scale(0.9)
+            .card-body
+                h5,
+                h6
+                    font-family:$font-family1
+                    line-height: 1.25em
+                    margin-bottom: 1.25
+                    font-size: 1.25em
+                    color:$Primario
+                    transition: all 0.3s ease-out
+                    &:hover
+                        transform: scale(1.054)
+
+                h6
+                    color: $Sexto
+                p
+                    font-family: $font-family2
+                    color: $Quinto
+                    font-weight: 500
+                    font-size: 1em
+                    height: 10.125em
+                    line-height: 1.75em
+                    margin: bottom 1.25em
+                    overflow: hidden
+                    &:hover
+                        overflow: scroll
+                .categorias
+                    text-align: right
+                    ul
+                        list-style: none
+                        li
+                            display: inline-block
+                    a
+                        color: $Sexto
+                        font-size: .8em
+                        font-weight: semibold
+                        marging-right: 1.25em
+                        marging-left: 1.25em
+                        margin-bottom: 1em
+                        &:hover
+                            color: $Primario
+    .paginacion
+        display: flex
+        align-items: center 
+        ul
+            list-style: none
+            overflow: hidden
+            margin-bottom: 1.25em
+            font-size: 1em
+            padding-left: 0.715em                       
+            li
+                float: left
+                background: $Terciario
+                color: #fff
+                margin-right: 0.62em
+                font-size: 1.25em
+                line-height: 1.25em
+                &.disable
+                    padding: 0.62em
+                    font-size: 1.125em
+                    line-height: 1.125em
+                a
+                    background: $Sexto
+                    color: #fff
+                    line-height: 1.125em
+                    display: inline-block
+                    padding: 0.62em 0.937em
+                    &:hover
+                        background: $Quinto
+                        text-decoration: none
+        .wp-pagenavi 
+            margin-bottom: 1.25em
+            .pages,
+            span
+                background: $Sexto
+                color: #fff
+                margin-right: 0.62em
+                font-size: 1.125em
+                line-height: 1.12em
+                padding: 0.62em 0.937em
+                a
+                    background: $Secundario
+                    color: #fff
+                    font-size: 1.125em
+                    display: inline-block
+                    padding: 0.62em
+                    &:hover
+                        text-decoration: none
+                        background: $Primario

@@ -1,0 +1,15 @@
+body {
+    font-size: 600px;
+}
+
+p {
+    font-size:10px;
+}
+
+div {
+    width: 1em;
+    height:10em;
+    /* background: #003f3f; */
+    background: rgba(215, 38, 62, 0.457);
+    /* el ultimo valore es la trasparencia */
+}

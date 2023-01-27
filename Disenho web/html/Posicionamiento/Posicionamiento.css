@@ -1,0 +1,37 @@
+*{
+padding: 0;
+margin: 0;
+}
+body {
+    background: #e3890b95;
+}
+/* .caja {
+    width: 200px;
+    height: 200px;
+    background: #221ac5a9;
+    margin: 20px;
+    float:left;
+}
+.posicionada {
+    background: red; */
+    /* position:absolute;
+    top:;
+    right:0%;
+    Left:;
+    bottom: 0%;
+    /* 
+    Pueden sobreponer los objetos
+    position: relative;
+    position:absolute; para que conserve el espacio */
+    /* margin: 20px;    
+} */ 
+/* 
+.cajaPadre{
+    background: #98ffc1;
+ position:relative;
+   width: 600px;
+   height: 500px;
+   margin: 20px;
+} */
+
+

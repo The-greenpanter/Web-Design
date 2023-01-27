@@ -1,0 +1,46 @@
+body{
+    background: #731702;
+}
+
+@keyframes colores{
+    /* from {background: #014040} to {background:#731702} */
+25%{background:#02735E;width: 300px;}
+50%{background:#03A678;width: 400px;}
+75%{background:#F27405;width: 500px;}
+95%{background:#731702;width: 600px;}
+100%{background:rgb(13, 2, 74)}
+
+}
+@keyframes movement{
+    from{transform:translate(0px);}
+    to{transform: translate(500px);}
+    
+    /* 0%{transform: translate(0px);}
+    50%{transform: translate(500px);}
+    100%{transform: translate(0px);} */
+}
+
+
+.caja {
+    
+    width: 200px;
+    height: 200px;
+    background: #03A678;
+    
+    
+}
+
+.up{
+    /* animation-name: movement;
+    animation-duration: 7s;
+    animation-iteration-count: infinite; */
+    animation:movement 7s ease infinite;
+
+}
+
+.box{
+    animation-name: colores;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0, minimun-scale=1.0">
+    <title>Formularios</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">SlaPa</a>
+                <button class="navbar-toggler" type="button" data-bs-toogle="collapse" data-bs-target="#menucontent"
+                    aria-controls="menucontent" aria-expanded="false" aria-label="Mostrar/Ocultar Navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menucontent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <!-- dropdown -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="submenuProductos" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                            <!-- Submenu -->
+                            <ul class="dropdown-menu" aria-labelledby="submenuProductos">
+                                <li>
+                                    <a href="#" class="dropdown-item">Fertilizantes</a>
+                                    <a href="#" class="dropdown-item">Sustratos</a>
+                                    <a href="#" class="dropdown-item">Plantulas</a>
+                                    <a href="#" class="dropdown-item">Semillas</a>
+                                    <a href="#" class="dropdown-item">Esquejes</a>
+                                    <a href="#" class="dropdown-item">Kits de cltivo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                    <!-- ==========================================================Formulario de busqueda====================================================== -->
+
+                    <form action="" class="d-flex">
+                        <input type="text" class="form-control me-2" arial-label="Buscar" placeholder="Buscar">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <div id="slideshow" data-bs-interval="3500" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="d-inline-flex carousel-inner">
+                        <div class="align-content-center carousel-item active">
+                            <div class="
+                            align-content-center carousel-caption">
+                                <h5>Platulas</h5>
+                                <p>Son las nuebas generaciones las que mantienenn nuestro cultivo ya sea nacidas de
+                                    esquejes o de semillas</p>
+                            </div>
+                            <img src="/Boostrap5/Clases/sla/IMG_20220527_125220.jpg" class="align-self-center" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="
+                            align-content-center carousel-caption">
+                                <h5>Esquejes</h5>
+                                <p>La reproduccion vegetativa permite seleccionar las mejores geneticas</p>
+                            </div>
+                            <img src="/Boostrap5/Clases/sla/IMG_20220527_125346.jpg" class="align-self-center" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="
+                            align-content-center carousel-caption">
+                                <h5>Semillas</h5>
+                                <p>La germinacion es un proceso complejo, con el se busca aumentar la diversidad de las cepas</p>
+                            </div>
+                            <img class="align-self-center" src="/Boostrap5/Clases/sla/IMG_20220702_143010_1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <h5>Semillas</h5>
+                            <p>La germinacion es un proceso complejo, con el se busca aumentar la diversidad de las cepas</p>
+                            <img class="align-self-center" src="/Boostrap5/Clases/sla/IMG_20220810_083130_351.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" 
+            data-bs-target="#slideshow" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" 
+            data-bs-target="#slideshow" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+                    <div class="carousel-indicators">
+                        <button 
+                        type="button" 
+                        class="active"
+                        data-bs-target="#slideshow"
+                        data-bs-slide-to="0"
+                        aria-label="Slide 1"
+                        ></button>
+                        <button 
+                        type="button" 
+                        class=""
+                        data-bs-target="#slideshow"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                        ></button>
+                        <button 
+                        type="button" 
+                        class=""
+                        data-bs-target="#slideshow"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                        ></button>
+                        <button 
+                        type="button" 
+                        class=""
+                        data-bs-target="#slideshow"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                        ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

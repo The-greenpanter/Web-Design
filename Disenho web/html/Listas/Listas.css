@@ -1,0 +1,57 @@
+body{
+    
+    background: #9F8772;
+}
+/* para hacer menus de navegacion
+ul, ol{
+    list-style: none;
+    padding:0;
+} */
+/* li{ */
+    /* list-style: none; */
+    /* font-size:20px;
+
+    line-height:20px;
+} */
+
+/* ul{
+    vertical-align:middle;
+    list-style-image: url('/Disenho web/html/Listas/check.png');
+    list-style-image
+} */
+/* ul::before {
+    background-image: url("/Disenho web/html/Listas/check.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+} */
+/* ol{
+    list-style:upper-latin ;
+} */
+
+/* li::marker{
+    size:1px;
+} */
+/* MENU */
+.menu{
+    background:#4357ad;
+    width:200px;
+    list-style:none;
+    padding: 0;
+    text-align:center;
+}
+.menu li{
+    border-bottom: 1px solid rgba(255,255,255,.5);
+
+}
+.menu li a{
+ display:block;
+ padding: 15px;
+ color:#fff;
+ text-decoration: none;
+    
+}
+.menu li a:hover{
+    background:#4888d6;
+}

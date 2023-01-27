@@ -1,0 +1,90 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background: #3F0071;
+}
+
+a {
+    background-color: #150050;
+    padding:20px 30px;
+    display: inline-block;
+    color:#FB2576;
+    font-size: 20px;
+}
+a:hover{
+    background:#FB2576;
+    color:#150050;
+    padding: 35px 45px;
+}
+
+a:active{
+    background-color:#000000 ;
+}
+
+div {
+width: 500px;
+
+}
+p{
+    color:#FB2576;
+}
+div p:hover{
+    background: #fff;
+    color:#000000
+}
+
+div p::first-line{
+font-size: 30px;
+}
+
+div p:nth-child(2){
+    background-color: #31E1F7;
+    color:#FF7777;
+}
+
+div p:nth-child(2):hover{
+    color:#FB2576;
+    background: #3F0071;
+}
+
+/* Hasta aca pseudoclases */
+
+/* ahora las pseudoclases */
+
+p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p::first-line{
+    background: #31E1F7;
+}
+
+*::selection{
+    background:#ADDDD0;
+    color:#FF7777;
+}
+
+.caja{
+    background-color: #FF7777;
+    height: 150px;
+    width: 150px;
+}
+
+.caja::before{
+    content: 'Contenido antes de la caja';
+    display: block;
+    background: #ADDDD0;
+    color:#87A2FB;
+    /* position:relative;
+    left:10px; */
+}
+
+.caja::after{
+    content:'';
+    width:50px;
+    height:50px;
+    background:#fff ;
+    display: block;
+    position: relative;
+    left:200px;
+}

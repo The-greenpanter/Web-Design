@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0, minimun-scale=1.0">
+    <style>
+        .contenedor {
+            margin-bottom: 20px;
+            background: #0d6efd;
+            color:#fff;
+            min-width: fit-content;
+        }
+
+        .contenedor > div{
+            background: rgba(225, 255, 255, .2);
+            padding: 15px 20px;
+            border:1px solid #0d6fed;
+            /* max-width: auto; */
+        }
+
+    </style>
+    <title>flexbox3</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+            <h4>Wrap</h4>
+            <hr>
+            <p>Flex-nowrap</p>
+
+                <div class="contenedor d-flex flex-nowrap">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+            
+            <p>Flex-wrap</p>
+
+            <div class="contenedor d-flex flex-wrap">
+                <div>cajas 1</div>
+                <div>cajas 2</div>
+                <div>cajas 3</div>
+                <div>cajas 4</div>
+                <div>cajas 5</div>
+                <div>cajas 6</div>
+                <div>cajas 7</div>
+                <div>cajas 8</div>
+                <div>cajas 9</div>
+                <div>cajas 10</div>
+                <div>cajas 11</div>
+                <div>cajas 12</div>
+                <div>cajas 13</div>
+                <div>cajas 14</div>
+                <div>cajas 15</div>
+            </div>
+
+            <p>Flex-wrap-reverse</p>
+
+            <div class="contenedor d-flex flex-wrap-reverse">
+                <div>cajas 1</div>
+                <div>cajas 2</div>
+                <div>cajas 3</div>
+                <div>cajas 4</div>
+                <div>cajas 5</div>
+                <div>cajas 6</div>
+                <div>cajas 7</div>
+                <div>cajas 8</div>
+                <div>cajas 9</div>
+                <div>cajas 10</div>
+                <div>cajas 11</div>
+                <div>cajas 12</div>
+                <div>cajas 13</div>
+                <div>cajas 14</div>
+                <div>cajas 15</div>
+            </div>
+            <h4>Order</h4>
+            <hr>
+            <p>Flex-nowrap</p>
+
+                <div class="contenedor d-flex flex-nowrap">
+                    <div class="order-2">cajas 1</div>
+                    <div class="order-3">cajas 2</div>
+                    <div class="order-1">cajas 3</div>
+                </div>
+                <!-- Variantes del orden
+                    .order-1  .order-12
+                    
+                    sm | md | lg | xl | xxl
+                    .order-*-1  .order-*-12
+                    
+                -->
+                <h4>Align-content</h4>
+                <hr>
+                <p>.align-content-start</p>
+    
+                <div class="contenedor d-flex flex-wrap align-content-start" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+                <p>.align-content-center</p>
+    
+                <div class="contenedor d-flex flex-wrap align-content-center" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+                <p>sin .flex-wrap & con .align-content-center</p>
+    
+                <div class="contenedor d-flex align-content-center" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+                <p>.align-content-end</p>
+    
+                <div class="contenedor d-flex flex-wrap align-content-end" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+            </div>
+                <p>.align-content-end</p>
+    
+                <div class="contenedor d-flex flex-wrap align-content-end" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+            </div>
+                <p>.align-content-end</p>
+    
+                <div class="contenedor d-flex flex-wrap-reverse align-content-end" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+                <p>.align-content-between</p>
+    
+                <div class="contenedor d-flex flex-wrap align-content-between" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+                <p>.align-content-around</p>
+    
+                <div class="contenedor d-flex flex-wrap align-content-around" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+                <p>.align-content-strech</p>
+    
+                <div class="contenedor d-flex flex-nowrap align-content-strech" style="height: 200px">
+                    <div>cajas 1</div>
+                    <div>cajas 2</div>
+                    <div>cajas 3</div>
+                    <div>cajas 4</div>
+                    <div>cajas 5</div>
+                    <div>cajas 6</div>
+                    <div>cajas 7</div>
+                    <div>cajas 8</div>
+                    <div>cajas 9</div>
+                    <div>cajas 10</div>
+                    <div>cajas 11</div>
+                    <div>cajas 12</div>
+                    <div>cajas 13</div>
+                    <div>cajas 14</div>
+                    <div>cajas 15</div>
+                </div>
+            </div>
+    </div>
+</div>
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

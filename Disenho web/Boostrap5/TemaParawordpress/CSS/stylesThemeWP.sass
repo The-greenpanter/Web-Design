@@ -1,0 +1,31 @@
+$background:#F2E8D5
+$Primario: #F2A649
+$Secundario:#8C6B2E
+$Terciario:#044040
+$Cuaternario:#D3D9C5
+$Quinto:#172601
+$Sexto:#6D8C72
+$font-family1: 'Chivo Mono', monospace
+$font-family2: 'Montserrat', sans-serif
+//La siguiente variable impactara el valore de em por tanto es font-size*em=px
+$font-size: 16px
+*
+    margin: 0
+    padding: 0
+
+body
+    background: $background
+    font-size: $font-size
+    font-family: $font-family1
+
+.ad
+    text-align: center
+    margin-bottom: 1.5em //20px
+a
+    color:$Primario
+    display: inline-block
+@import header
+@import main
+@import sidebar
+@import footer
+@import responsive

@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: #221ac5a9;
+    margin: 20px;
+    float:left;
+}

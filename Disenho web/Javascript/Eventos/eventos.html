@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <!-- <button id="btn-saludar">Saludo</button>
+     -->
+    <button id="btn-saludar">Cajacreator</button>
+    <section id="container" class="container"></section>
+  <style>
+    .box {
+        width: 200px;
+        height: 200px;
+        margin:20px;
+        cursor:pointer;
+        background: aquamarine;
+        text-align: center;
+        display: inline-block;
+        font-size: 30px;
+        color:#fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  <script>
+        function cajaMader(){
+                    var container = document.getElementById('container');
+                    var box = document.createElement('div');
+                    box.className = 'box';
+                    container.appendChild(box);
+        
+                }
+        var btnBox = document.getElementById('btn-saludar');
+        btnBox.addEventListener('click',cajaMader);
+        // function greetings(){
+        //     alert('Que se dice!!')
+        // }
+
+        // var btnSaludar= document.getElementById('btn-saludar');
+        // // fallbacks
+        // btnSaludar.addEventListener('click',   function(){
+        //     alert('Alojas');
+        // });
+        // // otras funciones
+        // btnSaludar.addEventListener('mouseenter',greetings);
+        // //remover funciones
+        // btnSaludar.removeEventListener('mouseenter', greetings);
+
+
+    </script>
+</body>
+</html>

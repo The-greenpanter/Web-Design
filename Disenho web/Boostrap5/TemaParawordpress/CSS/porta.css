@@ -1,0 +1,391 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 16px;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px; 
+    /* -----------------color de fondo para maquetear------*/
+     /* background: #ccc; */
+    margin:auto;
+    overflow: hidden; 
+}
+
+/* --------------------------------------trabajamos sobre el header------------------------- */
+
+header{
+    background: url('/Disenho web/html/Portafolio/img/headerIMG.jpg') #415AA6;
+    background-repeat: no-repeat;
+    background-size:center ;
+    background-position:center ;
+    /* max-height: 1000px; */
+    overflow:hidden
+    
+
+}
+
+header .menu{
+margin:40px  0;
+text-align: right;
+
+
+}
+
+header .menu a{
+margin:0 20px;
+color:#fff;
+padding-bottom:9px ;
+display:inline-block;
+text-decoration: none;
+border-bottom: 2px solid transparent;
+font-size:1em;
+
+
+}
+
+header .menu a:hover{
+    border-bottom: 2px solid #fff;
+}
+/* header .container{
+    margin:150px;
+} */
+header .titlecontainer{
+display: flex;   
+margin-top: 50px;
+margin-bottom: 100px;
+text-align: center;
+padding: 30px 60px;
+justify-content: center; 
+/* flex-wrap: wrap; */
+/* flex-direction: row; */
+}
+
+header .titlecontainer .texto{
+    padding: 0 50px;
+    border: 2.5px solid #fff;
+    border-radius:9px;
+    display: inline-block;
+    /* justify-items:  space-between; */
+    /* text-align: center; */
+    /* padding: 20px 15px; */
+    /* align-content: center; */
+
+}
+
+header .titlecontainer .texto h1{
+    color:#fff;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 50px;  
+}
+header .titlecontainer .texto h2{
+    color:#000;
+    font-family: 'Vollkorn';
+    font-size: 60px;
+    padding-top:9px;
+    border-top: 2px solid #000;
+}
+
+header .titlecontainer .texto .Tituloprincipal{
+margin-bottom: 10px;
+font-size: 50px;
+line-height: 50px;
+}
+header .titlecontainer .texto .descripcion{
+font-size:30px;
+}
+/* -----------------------Main------------------------- */
+
+.main .Acercade{
+    /* Esto incluye la foto */
+    text-align: center;
+}
+/* .main .Acercade {
+  display: flex;
+} */
+
+.main .Acercade .IMGportada {
+    margin-top: -70px;
+    align-items: center;
+    overflow:visible;
+   
+}
+.main .Acercade .IMGportada img{
+    vertical-align: top;
+    border-radius: 50%;
+    border:5px solid #F29985;
+}
+
+.main .container {
+    overflow:visible;
+}
+
+.main .Acercade .generalInfo {
+    color: #F27507;
+    font-size: 1em;
+    text-align: center;
+    line-height: 30px;
+    width:80%;
+    margin:40px auto 60px auto;
+    /* background: #f2e8d599; */
+
+}
+
+.main .Acercade .generalInfo .AcercaD {
+    font-size: 34px;
+    line-height: ;
+    margin-bottom: 40px;
+    font-weight:200;
+    color: #0D0D0D;
+    text-align: center;
+}
+
+.main .Acercade .generalInfo .bold{
+    color:#3895ea;
+    text-decoration:underline;
+}
+
+/* ===================================Main trabajos==============================*/
+
+.main .trabajos {
+    background: #F2E8D5;
+    padding:60px 0;
+}
+
+.main .trabajos .container {
+
+/* prueba activarlo y no  */
+    overflow:hidden ;
+}
+
+
+.main .trabajos .titulo{
+    font-size: 34px;
+    line-height: ;
+    margin-bottom: 40px;
+    font-weight:200;
+    color: #415AA6;
+    text-align: center;
+}
+
+.main .trabajos .container .trabanos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.main .trabajos .container .trabanos .work {
+width:33%;
+/* max-height: 400px; */
+/* height:fit-content block; */
+/* height: 100px; */
+
+}
+
+.main .trabajos .container .trabanos .work .thumb{
+    display: inline-block;
+    /* max-width:100%;
+    max-height:100%; */
+    width: 100%;
+    margin-bottom:40px;
+    /* flex-direction: row; */
+    
+text-align: center ;    
+/* flex-wrap: wrap;     */
+}
+.main .trabajos .container .trabanos .work .thumb img{
+    height:168px;
+    
+    /* height: 100%; */
+    max-width:100%;
+    vertical-align: top;
+
+   
+} 
+
+.main .trabajos img{
+       max-width:500%;
+    max-height:100%;
+    border-radius:3px;
+}
+
+.main .trabajos .container .trabanos .work .descripcion{
+    text-align: center;
+    font-family: 'Vollkorn';
+}
+.main .trabajos .container .trabanos .work .descripcion .smalltittle{
+    font-weight: 200;
+    color:#373CA6;
+    margin-bottom:10px;
+}
+.main .trabajos .container .trabanos .work .descripcion .smalldescription{
+    font-size: 14px;
+}
+/* ========================FOOTER======================================== */
+footer .contacto {
+    padding:20px 0;
+}
+
+footer .contacto .container{
+    margin: 10px auto;
+}
+footer .contacto .formulario{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .titulo{
+    font-size: 34px;
+    line-height: 24px;
+    margin-bottom:40px;
+    margin-top: 0;
+    font-weight: ;
+    color:#F27507;
+    text-align: left;
+}
+footer .contacto .formulario textarea{
+    border: 2px solid #373CA6;
+    border-radius: 5px;
+    padding:15px 20px;
+    font-size: 20px;
+    color:#373CA6;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"]{
+    width: 47%;
+    
+    margin-bottom:15px; 
+}
+footer .contacto .formulario input[type="email"]{
+display:right;
+}
+
+footer .contacto .formulario textarea{
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario .boton{
+    margin: auto;
+    background: #3895ea;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    padding:15px 40px;
+    /* display: right; */
+}
+
+footer .contacto .formulario .boton:hover{
+background: #415AA6;
+}
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus{
+    border: 2px solid #F27507;
+}
+
+footer .social-media {
+background-color: #415AA6;
+padding: 60px 0;
+display:flex;
+flex-direction: row;
+text-align: center;
+
+}
+
+footer .contenedor {
+    
+    justify-content: center;
+}
+
+footer .social-media a{
+    color:#fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin:0 20px;
+    display: inline;
+}
+footer .social-media .IG:hover{
+    background: #fff;
+    padding: 15px 10px;   
+    margin:0 20px;
+    background-image:linear-gradient(to left, #405de6, #5851db,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80); 
+    border-radius: 100%;
+}
+
+
+footer .social-media .FB:hover{padding: 15px 10px; background:#1877f2;
+    margin:0 20px;border-radius: 100%;}
+footer .social-media .GitHub:hover{padding: 15px 10px;background:#6cc644;
+    margin:0 20px;border-radius: 100%;}
+footer .social-media .Linkin:hover{padding: 15px 10px;background:#0077b5; margin:0 20px;border-radius: 100%;}
+
+footer .social-media i .IG{
+    background: #fff;
+}
+footer .social-media {
+margin:fixed;
+}
+footer .social-meia i .FB{
+    background: #fff;
+}
+footer .social-media i .GitHub{
+    background: #fff;
+}
+footer .social-media i .Linkin{
+    background: #fff;
+
+}
+
+/* ====================================MEDIA QUERIES============================ */
+
+@media  screen and (max-width:800px){
+header .menu{
+    text-align:center;
+}
+.main .trabajos .container .trabanos .work{
+    width: 26%;
+}
+
+}
+
+@media screen and (max-width:600px){
+header .container .titlecontainer .Tituloprincipal h1,header .titlecontainer .texto .Tituloprincipal{
+
+    font-size: 35px;
+} 
+
+header .container .titlecontainer .descripcion h2,header .titlecontainer .texto .descripcion{
+    font-size: 18px;
+} 
+
+footer .social-media .container,footer .social-media .container i {
+flex-wrap:wrap;
+padding: 19.3px 9.6px;
+}
+
+}
