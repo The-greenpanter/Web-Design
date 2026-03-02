@@ -1,0 +1,58 @@
+.main 
+    .trabajos 
+        background: #F2E8D5
+        padding:60px 0
+        .container 
+            /* prueba activarlo y no  */
+            overflow:hidden 
+        .titulo
+            font-size: 34px
+            margin-bottom: 40px
+            font-weight:200
+            color: #415AA6
+            text-align: center
+        .trabanos
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-between
+            .work 
+                width:33%
+                /* max-height: 400px */
+                /* height:fit-content block */
+                /* height: 100px */
+                position: relative
+                order-radius:5px 
+                max-height:300px
+                .thumb
+                    display: inline-block
+                    max-height: 100%
+                    width: 100%
+                    margin-bottom:40px                  
+                    text-align: center
+                    a
+                        text-decoration: none     
+                        img
+                            object-fit: cover
+                            vertical-align: top
+                            max-width: 100%
+                            border-radius: 3px
+                            &:hover
+                                box-shadow: 0 0 4px 2px #415AA6
+                        p
+                            font-size: 16px
+                            color: #000
+                            font-family: 'Vollkorn', sans-serif
+                            font-weight: 400
+                        .descripcion
+                            text-align: center
+                            font-family: 'Vollkorn'
+                            &:hover
+                                text-decoration: underline
+                                color:#000100
+                            .smalltittle
+                                font-weight: 200
+                                color:#373CA6
+                                margin-bottom:10px
+                            .smalldescription
+                                font-size: 14px
