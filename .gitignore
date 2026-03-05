@@ -19,3 +19,5 @@ public_html/config/database.php
 # Keep public PHP endpoints/templates versioned
 !public_html/contact.php
 !public_html/config/database.php.example
+
+Web-Design\public_html\contact.php
