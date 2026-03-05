@@ -1,0 +1,15 @@
+<?php
+declare(strict_types=1);
+
+return [
+    // Rellena estos datos con tu BD de Hostinger.
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbname' => 'tu_base_de_datos',
+    'user' => 'tu_usuario',
+    'password' => 'tu_password',
+
+    // Tabla destino (ajustala a tu esquema).
+    // Debe tener columnas: nombre, correo, mensaje, created_at, ip_address, user_agent
+    'table' => 'contact_messages',
+];

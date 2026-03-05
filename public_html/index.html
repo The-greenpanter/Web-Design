@@ -12,12 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/fontawesome.min.css">
-    <script src="https://kit.fontawesome.com/397e1ee895.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/porta.css">
     <script src="jquery-3.6.1.min.js"></script>
-    <script src="jqueryD-3.6.1.js"></script>
     <link rel="icon" type="image/x-icon" href="../img/1favicon.ico">
     <script src="efectos.js"></script>
+    <script defer src="contact-feedback.js"></script>
     
     <title>The Green Panter</title>
 </head>
@@ -135,11 +134,13 @@
         <section class="contacto">
             <div class="container">
                 <h3 class="titulo" id="contacto">Contacto</h3>
-                <form class="formulario" action="">
+                <p id="contact-feedback" aria-live="polite"></p>
+                <form class="formulario" action="contact.php" method="post">
                     <input class="InsertNombre" type="text" placeholder="Nombre" name="nombre" required>
                     <input class="InsertCorreo" type="email" placeholder="Correo" name="correo" required>
                     <textarea name="Mensaje" placeholder="Mensaje" required></textarea>
-                    <input class="boton" type="sumit" value="Enviar">
+                    <input type="text" name="website" autocomplete="off" tabindex="-1" style="display:none">
+                    <input class="boton" type="submit" value="Enviar">
                 </form>
             </div>
         </section>  

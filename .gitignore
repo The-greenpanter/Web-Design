@@ -1,0 +1,21 @@
+# Workspace / deployment artifacts
+DO_NOT_DELETE_THIS_FOLDER.txt
+DO_NOT_UPLOAD_HERE
+Web-Design/DO_NOT_UPLOAD_HERE
+Web-Design/DO_NOT_UPLOAD_HERE.txt
+Web-Design.rar
+Web-Design.zip
+
+# Build outputs
+target/
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+public_html/config/database.php
+
+# Keep public PHP endpoints/templates versioned
+!public_html/contact.php
+!public_html/config/database.php.example
